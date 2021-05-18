@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Televisions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Laptopname</th>
+      <th>Memory</th>
+      <th>Condition</th>
+      <th>Location</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @televisions.each do |television| %>
+      <tr>
+        <td><%= television.LaptopName %></td>
+        <td><%= television.Memory %></td>
+        <td><%= television.Condition %></td>
+        <td><%= television.Location %></td>
+        <td><%= television.Price %></td>
+        <td><%= link_to 'Show', television %></td>
+        <td><%= link_to 'Edit', edit_television_path(television) %></td>
+        <td><%= link_to 'Destroy', television, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Television', new_television_path %>

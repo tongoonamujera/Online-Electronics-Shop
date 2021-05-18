@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Laptopname:</strong>
+  <%= @headphone.LaptopName %>
+</p>
+
+<p>
+  <strong>Memory:</strong>
+  <%= @headphone.Memory %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @headphone.Condition %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @headphone.Location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @headphone.Price %>
+</p>
+
+<%= link_to 'Edit', edit_headphone_path(@headphone) %> |
+<%= link_to 'Back', headphones_path %>

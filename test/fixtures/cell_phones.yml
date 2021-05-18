@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  CellPhoneName: MyString
+  Type: MyString
+  Memory: MyString
+  Condition: MyString
+  Location: MyString
+  Price: MyString
+
+two:
+  CellPhoneName: MyString
+  Type: MyString
+  Memory: MyString
+  Condition: MyString
+  Location: MyString
+  Price: MyString

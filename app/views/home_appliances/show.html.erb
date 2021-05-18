@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Laptopname:</strong>
+  <%= @home_appliance.LaptopName %>
+</p>
+
+<p>
+  <strong>Memory:</strong>
+  <%= @home_appliance.Memory %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @home_appliance.Condition %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @home_appliance.Location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @home_appliance.Price %>
+</p>
+
+<%= link_to 'Edit', edit_home_appliance_path(@home_appliance) %> |
+<%= link_to 'Back', home_appliances_path %>

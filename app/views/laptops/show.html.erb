@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Laptopname:</strong>
+  <%= @laptop.LaptopName %>
+</p>
+
+<p>
+  <strong>Memory:</strong>
+  <%= @laptop.Memory %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @laptop.Condition %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @laptop.Location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @laptop.Price %>
+</p>
+
+<%= link_to 'Edit', edit_laptop_path(@laptop) %> |
+<%= link_to 'Back', laptops_path %>

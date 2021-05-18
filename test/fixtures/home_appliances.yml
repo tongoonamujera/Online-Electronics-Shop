@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  LaptopName: MyString
+  Memory: MyString
+  Condition: MyString
+  Location: MyString
+  Price: MyString
+
+two:
+  LaptopName: MyString
+  Memory: MyString
+  Condition: MyString
+  Location: MyString
+  Price: MyString

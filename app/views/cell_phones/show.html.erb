@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cellphonename:</strong>
+  <%= @cell_phone.CellPhoneName %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @cell_phone.Type %>
+</p>
+
+<p>
+  <strong>Memory:</strong>
+  <%= @cell_phone.Memory %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @cell_phone.Condition %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @cell_phone.Location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cell_phone.Price %>
+</p>
+
+<%= link_to 'Edit', edit_cell_phone_path(@cell_phone) %> |
+<%= link_to 'Back', cell_phones_path %>

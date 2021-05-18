@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Laptopname:</strong>
+  <%= @television.LaptopName %>
+</p>
+
+<p>
+  <strong>Memory:</strong>
+  <%= @television.Memory %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @television.Condition %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @television.Location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @television.Price %>
+</p>
+
+<%= link_to 'Edit', edit_television_path(@television) %> |
+<%= link_to 'Back', televisions_path %>
