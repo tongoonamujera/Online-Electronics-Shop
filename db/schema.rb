@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_18_124251) do
+ActiveRecord::Schema.define(version: 2021_05_19_120651) do
 
   create_table "cell_phones", force: :cascade do |t|
     t.string "CellPhoneName"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2021_05_18_124251) do
     t.string "Price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "cover"
   end
 
   create_table "headphones", force: :cascade do |t|
@@ -31,6 +32,7 @@ ActiveRecord::Schema.define(version: 2021_05_18_124251) do
     t.string "Price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "cover"
   end
 
   create_table "home_appliances", force: :cascade do |t|
@@ -41,6 +43,7 @@ ActiveRecord::Schema.define(version: 2021_05_18_124251) do
     t.string "Price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "cover"
   end
 
   create_table "laptops", force: :cascade do |t|
@@ -51,6 +54,7 @@ ActiveRecord::Schema.define(version: 2021_05_18_124251) do
     t.string "Price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "cover"
   end
 
   create_table "televisions", force: :cascade do |t|
@@ -61,6 +65,7 @@ ActiveRecord::Schema.define(version: 2021_05_18_124251) do
     t.string "Price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "cover"
   end
 
 end
